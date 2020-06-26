@@ -15,14 +15,14 @@ python detect_blur_image.py --image PATH
 2. Train Network
 If you wish to train the network and then run the program, do the following.
 
--- First get the images that you wish to blur and save it in the folder called 'inputs.' Then add the Gaussian blur to your own set of images using
+⋅⋅⋅First get the images that you wish to blur and save it in the folder called 'inputs.' Then add the Gaussian blur to your own set of images using
 
 ```python
 python ../src/detect_blur_image.py --image PATH 
 ```
--- To train the network, run the following. Change the number of epochs according to your requirements
+⋅⋅⋅To train the network, run the following. Change the number of epochs according to your requirements
 ```python
-python .deblur_train.py --epochs 50 
+python deblur_train.py --epochs 50 
 ```
 
 Blur Detection
